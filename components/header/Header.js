@@ -23,6 +23,7 @@ function Header() {
       <Image
         className='object-contain'
         src='/hululogo.png'
+        alt='Hulu logo'
         width={180}
         height={90}
       />

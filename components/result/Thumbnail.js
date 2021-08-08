@@ -14,6 +14,7 @@ const Thumbnail = forwardRef(({ result }, ref) => {
         layout='responsive'
         height={1080}
         width={1920}
+        alt={result.title || result.original_name}
         src={
           `${BASE_URL}${result.backdrop_path || result.poster_path}` ||
           `${BASE_URL}${result.poster_path}`
